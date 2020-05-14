@@ -71,93 +71,8 @@
     <Compile Include="..\..\..\managed\src\Microsoft.WindowsAzure.MobileServices.WindowsStore\Platform\ExpressionUtility.cs">
       <Link>Platform\ExpressionUtility.cs</Link>
     </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth.Android\ActivityEx.cs">
-      <Link>Auth\Android\ActivityEx.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth.Android\ActivityStateRepository.cs">
-      <Link>Auth\Android\ActivityStateRepository.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth.Android\AndroidAccountStore.cs">
-      <Link>Auth\Android\AndroidAccountStore.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth.Android\FormAuthenticatorActivity.cs">
-      <Link>Auth\Android\FormAuthenticatorActivity.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth.Android\WebAuthenticatorActivity.cs">
-      <Link>Auth\Android\WebAuthenticatorActivity.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\Account.cs">
-      <Link>Auth\Account.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\AccountStore.cs">
-      <Link>Auth\AccountStore.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\Authenticator.cs">
-      <Link>Auth\Authenticator.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\AuthException.cs">
-      <Link>Auth\AuthException.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\ExceptionEx.cs">
-      <Link>Auth\ExceptionEx.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\FormAuthenticator.cs">
-      <Link>Auth\FormAuthenticator.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\OAuth1.cs">
-      <Link>Auth\OAuth1.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\OAuth1Authenticator.cs">
-      <Link>Auth\OAuth1Authenticator.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\OAuth1Request.cs">
-      <Link>Auth\OAuth1Request.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\OAuth2Authenticator.cs">
-      <Link>Auth\OAuth2Authenticator.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\OAuth2Request.cs">
-      <Link>Auth\OAuth2Request.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\Request.cs">
-      <Link>Auth\Request.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\Response.cs">
-      <Link>Auth\Response.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\System.Json\JavaScriptReader.cs">
-      <Link>Auth\Json\JavaScriptReader.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\System.Json\JsonArray.cs">
-      <Link>Auth\Json\JsonArray.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\System.Json\JsonObject.cs">
-      <Link>Auth\Json\JsonObject.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\System.Json\JsonPrimitive.cs">
-      <Link>Auth\Json\JsonPrimitive.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\System.Json\JsonType.cs">
-      <Link>Auth\Json\JsonType.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\System.Json\JsonValue.cs">
-      <Link>Auth\Json\JsonValue.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\WebAuthenticator.cs">
-      <Link>Auth\WebAuthenticator.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\WebEx.cs">
-      <Link>Auth\WebEx.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\WebRedirectAuthenticator.cs">
-      <Link>Auth\WebRedirectAuthenticator.cs</Link>
-    </Compile>
-    <Compile Include="..\External\Xamarin.Auth\src\Xamarin.Auth\WebUtilities.cs">
-      <Link>Auth\WebUtilities.cs</Link>
-    </Compile>
     <Compile Include="Platform\PushUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Authentication\MobileServiceUIAuthentication.cs" />
     <Compile Include="ExpressionUtility\ExpressionVisitor.cs" />
     <Compile Include="Extensions\MobileServiceClientExtensions.cs" />
     <Compile Include="Platform\ApplicationStorage.cs" />
@@ -180,7 +95,7 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
     <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />

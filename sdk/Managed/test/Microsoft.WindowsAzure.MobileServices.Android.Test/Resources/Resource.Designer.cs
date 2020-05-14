@@ -15,7 +15,7 @@ namespace Microsoft.WindowsAzure.Mobile.Android.Test
 {
 	
 	
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
 	public partial class Resource
 	{
 		
@@ -44,8 +44,8 @@ namespace Microsoft.WindowsAzure.Mobile.Android.Test
 		public partial class Drawable
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			// aapt resource value: 0x7F010000
+			public const int Icon = 2130771968;
 			
 			static Drawable()
 			{
@@ -60,35 +60,35 @@ namespace Microsoft.WindowsAzure.Mobile.Android.Test
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050008
-			public const int Description = 2131034120;
+			// aapt resource value: 0x7F020000
+			public const int Description = 2130837504;
 			
-			// aapt resource value: 0x7f050001
-			public const int List = 2131034113;
+			// aapt resource value: 0x7F020001
+			public const int List = 2130837505;
 			
-			// aapt resource value: 0x7f050009
-			public const int Log = 2131034121;
+			// aapt resource value: 0x7F020002
+			public const int Log = 2130837506;
 			
-			// aapt resource value: 0x7f050007
-			public const int Login = 2131034119;
+			// aapt resource value: 0x7F020003
+			public const int Login = 2130837507;
 			
-			// aapt resource value: 0x7f050000
-			public const int RunStatus = 2131034112;
+			// aapt resource value: 0x7F020004
+			public const int RunStatus = 2130837508;
 			
-			// aapt resource value: 0x7f050006
-			public const int RunTests = 2131034118;
+			// aapt resource value: 0x7F020005
+			public const int RunTests = 2130837509;
 			
-			// aapt resource value: 0x7f050004
-			public const int ServiceKey = 2131034116;
+			// aapt resource value: 0x7F020006
+			public const int ServiceKey = 2130837510;
 			
-			// aapt resource value: 0x7f050005
-			public const int ServiceTags = 2131034117;
+			// aapt resource value: 0x7F020007
+			public const int ServiceTags = 2130837511;
 			
-			// aapt resource value: 0x7f050003
-			public const int ServiceUri = 2131034115;
+			// aapt resource value: 0x7F020008
+			public const int ServiceUri = 2130837512;
 			
-			// aapt resource value: 0x7f050002
-			public const int TestName = 2131034114;
+			// aapt resource value: 0x7F020009
+			public const int TestName = 2130837513;
 			
 			static Id()
 			{
@@ -103,19 +103,19 @@ namespace Microsoft.WindowsAzure.Mobile.Android.Test
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
+			// aapt resource value: 0x7F030000
 			public const int Harness = 2130903040;
 			
-			// aapt resource value: 0x7f030001
+			// aapt resource value: 0x7F030001
 			public const int ListedGroup = 2130903041;
 			
-			// aapt resource value: 0x7f030002
+			// aapt resource value: 0x7F030002
 			public const int ListedTest = 2130903042;
 			
-			// aapt resource value: 0x7f030003
+			// aapt resource value: 0x7F030003
 			public const int Login = 2130903043;
 			
-			// aapt resource value: 0x7f030004
+			// aapt resource value: 0x7F030004
 			public const int Test = 2130903044;
 			
 			static Layout()
@@ -131,23 +131,23 @@ namespace Microsoft.WindowsAzure.Mobile.Android.Test
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040004
-			public const int ApplicationName = 2130968580;
+			// aapt resource value: 0x7F040000
+			public const int ApplicationName = 2130968576;
 			
-			// aapt resource value: 0x7f040005
-			public const int Login = 2130968581;
+			// aapt resource value: 0x7F040001
+			public const int Login = 2130968577;
 			
-			// aapt resource value: 0x7f040001
-			public const int MobileServiceKey = 2130968577;
+			// aapt resource value: 0x7F040002
+			public const int MobileServiceKey = 2130968578;
 			
-			// aapt resource value: 0x7f040000
-			public const int MobileServiceUri = 2130968576;
+			// aapt resource value: 0x7F040003
+			public const int MobileServiceUri = 2130968579;
 			
-			// aapt resource value: 0x7f040003
-			public const int RunTests = 2130968579;
+			// aapt resource value: 0x7F040004
+			public const int RunTests = 2130968580;
 			
-			// aapt resource value: 0x7f040002
-			public const int Tags = 2130968578;
+			// aapt resource value: 0x7F040005
+			public const int Tags = 2130968581;
 			
 			static String()
 			{
